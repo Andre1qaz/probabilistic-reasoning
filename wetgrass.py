@@ -1,15 +1,3 @@
-"""
-LATIHAN MANDIRI 2: SPRINKLER NETWORK (WetGrass)
-Mata Kuliah: Artificial Intelligence (10S3001)
-Institut Teknologi Del
-
-Tujuan: Membangun Bayesian Network baru untuk studi kasus
-"WetGrass" dan memahami probabilistic reasoning dalam konteks
-yang berbeda.
-
-Nama: [Isi Nama Anda]
-NIM: [Isi NIM Anda]
-"""
 from pgmpy.models import DiscreteBayesianNetwork as BayesianNetwork 
 from pgmpy.factors.discrete import TabularCPD
 from pgmpy.inference import VariableElimination
